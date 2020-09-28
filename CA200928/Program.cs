@@ -21,7 +21,7 @@ namespace CA200928
                 Console.ForegroundColor = (ConsoleColor)rnd.Next(1, 16);
                 Console.Write(s);
             }
-            Console.ReadKey();
+            Console.ReadKey(true);
         }
     }
 }
